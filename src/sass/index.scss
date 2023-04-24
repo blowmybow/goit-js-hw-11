@@ -1,2 +1,10 @@
-@import './common';
-
+@import './base/common-reset';
+@import './base/visually-hidden';
+@import './utils/mixin';
+@import './utils/breakpoint';
+@import './components/common/container';
+@import './components/common/section';
+@import './components/common/section-title';
+@import './components/common/btn-loadmore';
+@import './components/form-search';
+@import './components/gallery';

@@ -1,0 +1,41 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ece5da;
+    color: #212121;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

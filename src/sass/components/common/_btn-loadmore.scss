@@ -1,0 +1,25 @@
+.load-more {
+    font-size: 20px;
+color: #1c5262;
+    background: #f1ebe5;
+    box-shadow: -2px 5px 8px #f0ec08,
+            1px -5px 4px #0f6ced;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+}
+    
+.load-more:disabled {
+    background-color: #746565;
+    cursor: not-allowed;
+}
+.load-more.hidden{
+display: none;
+}
+
